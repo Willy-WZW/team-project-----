@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.svgTaiwan {
+  width: 30%;
+  height: 80vh;
+}
+.svgTaiwan svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.svgTaiwan svg path {
+  stroke: white;
+}
+.svgTaiwan svg path:hover {
+  fill: gold;
+}
+.svgTaiwan svg .kinmen:hover {
+  fill: gold;
+}
+.svgTaiwan svg .lienchiang:hover {
+  fill: gold;
+}
+.svgTaiwan svg .penghu:hover {
+  fill: gold;
+}
+
+.showArea {
+  width: 40%;
+  height: 80dvh;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 6%;
+  right: 25%;
+  position: absolute;
+  font-size: 30px;
+}
+.showArea select {
+  font-size: 24px;
+}/*# sourceMappingURL=air.css.map */

@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.svgTaiwan {
+    width: 30%;
+    height: 80vh;
+
+    svg {
+        width: 100%;
+        height: 100%;
+
+        object-fit: contain;
+        path {
+            stroke: white;
+
+            &:hover {
+                fill: gold ; //!important提高優先級
+            }
+        }
+        .kinmen{
+            &:hover {
+                fill: gold ;
+            }
+        }
+        .lienchiang{
+            &:hover {
+                fill: gold ;
+            }
+        }
+        .penghu{
+            &:hover {
+                fill: gold ;
+            }
+        }
+    }
+}
+
+.showArea{
+    width: 40%;
+    height: 80dvh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 6%;
+    right: 25%;
+    position: absolute;
+    font-size: 30px;
+
+    select{
+        font-size: 24px;
+    }
+}
